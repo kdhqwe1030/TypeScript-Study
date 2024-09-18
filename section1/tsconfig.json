@@ -1,0 +1,7 @@
+{
+  "include": ["src"], //컴파일 할 typescipt 파일들의 범위와 위치를 알려주는 옵션
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext"
+  } //javascript 코드의 버전을 설정하는 옵션
+}
