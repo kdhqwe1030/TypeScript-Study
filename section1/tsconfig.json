@@ -2,6 +2,10 @@
   "include": ["src"], //컴파일 할 typescipt 파일들의 범위와 위치를 알려주는 옵션
   "compilerOptions": {
     "skipLibCheck": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "module": "ESNext", //moduel을 불러오는 방법을 지정.
+    "outDir": "dist", //컴파일 결과 js 파일이 생성되는 위치
+    "strict": false,
+    "moduleDetection": "force"
   } //javascript 코드의 버전을 설정하는 옵션
 }
